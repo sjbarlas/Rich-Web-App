@@ -1,5 +1,4 @@
-
-#3. 
+#3.  Checkout Page
 [https://jsbin.com/zuyome/edit?html,css,output](https://jsbin.com/zuyome/edit?html,css,output)
 
 ![Checkout Page](http://image.prntscr.com/image/e8414c1ac1334f08a7321041761f0ef7.png)
