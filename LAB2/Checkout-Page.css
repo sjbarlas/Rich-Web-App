@@ -1,0 +1,190 @@
+body {
+  background-color: #F7F7F7;
+  margin-left: 10px;
+}
+
+#banner {
+  background-color: #87CEEB;
+  width: 420px;
+}
+
+#shipping {
+  font-size: 40px;
+  font-family: "Helvetica";
+  font-weight: bold;
+  color: #FFF;
+  text-align: center;
+}
+
+#fname, #lname {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  position: absolute;
+  padding-left: 5px;
+}
+
+#lname {
+  margin-left: 220px;
+  margin-top: -36px;
+}
+
+#add1, #add2 {
+  width: 420px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  margin-top: -36px;
+  padding-left: 5px;
+}
+
+#add1 {
+  margin-top: -33px;
+  position: absolute;
+}
+
+#add2 {
+  margin-top: -30px;
+  position: absolute;
+}
+
+#city, #postcode {
+  margin-top: -28px;
+  border-radius: 5px;
+  border-style: none;
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  padding-left: 5px;
+}
+
+#postcode {
+  margin-left: 220px;
+  margin-top: -64px;
+  position: absolute;
+}
+
+#country {
+  border-radius: 5px;
+  border-style: none;
+  position: absolute;
+  width: 420px;
+  height: 30px;
+  margin-top: -43px;
+  padding-left: 2px;
+}
+
+/** Billing **/
+#payment {
+  margin-top: 20px;
+  font-size: 40px;
+  font-family: "Helvetica";
+  font-weight: bold;
+  color: #FFF;
+  text-align: center;
+}
+
+#credit {
+  width: 420px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  margin-top: -33px;
+  position: absolute;
+  padding-left: 5px;
+}
+
+#expmonth, #expyear {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  position: absolute;
+  margin-top: -30px;
+  padding-left: 5px;
+}
+
+#expyear {
+  margin-left: 220px;
+  margin-top: -48px;
+}
+
+#cvv {
+  width: 420px;
+  height: 30px;
+  border-radius: 5px;
+  border-style: none;
+  margin-top: -29px;
+  position: absolute;
+  padding-left: 5px;
+}
+
+#mastercard {
+  margin-top: -16px;
+  position: absolute;
+}
+
+#master {
+  position: absolute;
+  margin-top: -19px;
+  margin-left: 23px;
+  font-family: "Helvetica";
+  font-size: 15px;
+}
+
+#visa {
+  margin-top: -16px;
+  position: absolute;
+  margin-left: 200px;
+}
+
+#vis {
+  position: absolute;
+  margin-top: -19px;
+  margin-left: 217px;
+  font-family: "Helvetica";
+  font-size: 15px;
+}
+
+#billing {
+  font-family: "Helvetica";
+  position: absolute;
+  font-style: italic;
+  font-size: 15px;
+}
+
+#checkbox {
+  position: absolute;
+  margin-left: 240px;
+  margin-top: 18px;
+}
+
+#textarea {
+  position: absolute;
+  margin-top: 50px;
+  padding-left: 5px;
+}
+
+#submit {
+  margin-top: 120px;
+  position: absolute;
+  height: 25px;
+  width: 150px;
+  margin-left: 30px;
+}
+
+#cancel {
+  margin-top: 102px;
+  position: absolute;
+  margin-left: 230px;
+  height: 25px;
+  width: 150px;
+}
+
+#space {
+  margin-top: 25px;
+  height: 100px;
+  width: 60px;
+  background-color: #F7F7F7;
+}
