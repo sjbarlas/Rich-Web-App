@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Checkout Page</title>
+</head>
+<body>
+  <div id="banner">
+    <p id="shipping">Shipping</p>
+  </div>
+  <div>
+    <form action="action_page.php">
+      <input type="text" label for="firstname" placeholder="First name" id="fname"><br>
+      <br>
+      <input type="text" label for="lastname" placeholder="Last name" id="lname"><br>
+      <br>
+      <input type="text" label for="address1" placeholder="Address Line 1" id="add1"><br>
+      <br>
+      <input type="text" label for="address2" placeholder="Address Line 2" id="add2"><br>
+      <br>
+      <input type="text" label for="city" placeholder="City" id="city"><br>
+      <br>
+      <input type="text" label for="postcode" placeholder="Post Code" id="postcode"><br>
+      <select label for="country" id="country">
+        <option value="">Country</option>
+        <option value="IE">Ireland</option>
+        <option value="UK">United Kingdom</option>
+        <option value="JP">Japan</option>
+      </select>
+    </form>
+  </div>
+  <div id="banner">
+    <p id="payment">Payment</p>
+  </div>
+  <div>
+    <form action="action_page.php">
+      <input type="text" label for="firstname" placeholder="First name" id="fname"><br>
+      <br>
+      <input type="text" label for="lastname" placeholder="Last name" id="lname"><br>
+      <br>
+      <input type="text" label for="credit" placeholder="Credit Card Number" id="credit"><br>
+      <br>
+      <input type="text" label for="expirationmonth" placeholder="Expiration Month" id="expmonth">
+      <br>
+      <input type="text" label for="expirationyear" placeholder="Expiration Year" id="expyear">
+      <br>
+      <input type="text" label for="cvv" placeholder="CVV" id="cvv"><br>
+      <br>
+      <input type="radio" label for="mastercard" id="mastercard"><p id="master">Mastercard</p>
+      <input type="radio" label for="visa" id="visa"><p id="vis">Visa</p>
+      <p id="billing">Billing Address same as Shipping?</p><input type="checkbox" label for="checkbox" id="checkbox">
+      <textarea id="textarea" rows="4" cols="56">Additional Details
+      </textarea>
+      <br>
+      <input type="submit" label for="submit" value="Submit" id="submit">
+      <br>
+      <input type="submit" label for="cancel" value="Cancel" id="cancel">
+      <br>
+      <div id="space"></div>
+    </form>
+  </div>
+</body>
+</html>
